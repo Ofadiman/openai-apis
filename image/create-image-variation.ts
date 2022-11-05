@@ -5,7 +5,7 @@ import { AxiosError } from 'axios'
 try {
   const response = await openai.createImageVariation(
     createReadStream('assets/pepe_sad.png') as unknown as File,
-    1,
+    5,
     '1024x1024',
   )
 
